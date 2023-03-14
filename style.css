@@ -1,0 +1,142 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.544);
+  }
+
+  /* FORM-STYLINGS */
+  .container {
+    display: flex;
+    width: 90vh;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 4rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 4px 2px 2px 0 gray ;
+  }
+
+  .logo {
+    width: 6rem;
+    height: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: blue;
+    outline: none;
+  }
+
+   h1 {
+    font-size: 3.5rem;
+    letter-spacing: 1.1;
+   }
+
+   .btn-nav {
+    display: flex;
+    flex-direction: column;
+    width: 33rem;
+     }
+
+   .btn-nav a {
+    color: black;
+   }
+
+   .icon-btn {
+    margin-right: 0.8rem;
+    width: 2rem;
+    height: 1.6rem;
+   }
+
+   .btn-links:link,
+   .btn-links:visited {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    padding: 1.2rem;
+    margin: 1rem 0 1rem;
+    font-size: 1.3rem;
+    border-radius: 5rem;
+    transition: all 0.5s;
+    border: 1px solid #c7c7c7;
+   }
+
+   .btn-links:hover{
+    background-color: aliceblue;
+   }
+   
+   .dash {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: -2;
+    color: #999;
+   }
+
+  .twitter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    display: inline;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    width: 33rem;
+    border: 1px solid #c7c7c7;
+    margin: 1rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn--links:link,
+  .btn--links:visited {
+    background-color: rgba(0, 0, 0, 0.941);
+    color: #fff;
+    padding: 1rem;
+    margin: 0.2rem;
+    transition: all 0.4s;
+  }
+
+  .btn--links:hover {
+    background-color: rgba(0, 0, 0, 0.882);
+  }
+
+
+  .btn--links2:link,
+  .btn--links2:visited {
+    background-color: #fff;
+    color: black;
+    padding: 1rem;
+  }
+
+  .btn--links2:hover {
+    background-color: aliceblue;
+  }
+
+  .signup {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 12rem;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    letter-spacing: 1;
+  }
+
+ .signup-link a {
+  text-decoration: none;
+  color: blue;
+ }

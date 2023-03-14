@@ -1,0 +1,112 @@
+
+    @media (max-width: 84em) {
+        .container {
+            display: flex;
+            width: 80vh;
+            height: 90vh;
+            margin: 0 auto;
+            margin-top: 4rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 4px 2px 2px 0 gray ;
+          }
+
+          .signup {
+            display: flex;
+            align-self: flex-start;
+            margin-left: 12rem;
+            margin-top: 4rem;
+            font-size: 1.4rem;
+            letter-spacing: 1;
+          }
+        }
+
+        @media (max-width: 75em) {
+            .container {
+                width: 65vh;
+                height: 90vh;
+                margin: 0 auto;
+                margin-top: 4rem;
+              }
+
+              h1 {
+                font-size: 2.8rem;
+              }
+
+              .btn-nav {
+                display: flex;
+                flex-direction: column;
+                width: 28rem;
+                 }
+
+            input {
+                width: 28rem;
+            }
+
+            .signup {
+                margin-left: 8rem;
+                display: flex;
+                margin-top: 3rem;
+                align-items: center;
+            }
+    
+        }
+
+        @media (max-width: 38em) {
+            .container {
+                width: 50vh;
+                height: 90vh;
+                margin: 0 auto;
+                margin-top: 4rem;
+              }
+
+              h1 {
+                font-size: 2rem;
+              }
+
+              .btn-nav {
+                width: 22rem;
+              }
+
+              input {
+                width: 22rem;
+                padding: 1.2rem;
+              }
+
+              .signup {
+                font-size: 1.2rem;
+                margin-top: 2rem;
+                margin-left: 6rem;
+              }
+
+        }
+
+        @media (max-width: 22em) {
+            .container {
+                width: 45vh;
+                height: 90vh;
+                margin: 0 auto;
+                margin-top: 3.2rem;
+              }
+
+              .logo {
+                width: 2rem;
+                height: 2rem;
+              }
+
+              h1 {
+                font-size: 1.5rem;
+              }
+
+              input {
+                font-weight: 100;
+                font-size: 1.2rem;
+              }
+
+              .signup {
+                font-size: 1rem;
+                margin-top: 4rem;
+              }
+           }
+
+        
